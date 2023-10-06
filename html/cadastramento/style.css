@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(to right,#000000 20%, #0000008f 50%), url(../../imagens/barbeiro1.jpg) ;
+     text-align: center;
+     position: center;
+     background-size:cover;
+     background-position: right;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     padding: 16vh;
+    }
+#infoForm{
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    width: 40%;
+    position: absolute;
+    background-color: #0000007a;
+    color:white;
+    left: 30vw;
+    top: 30vh;
+}
+@media (max-width: 580px) {
+    #navbar {
+      padding: 20px 10px !important;
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+    .section1 > p {
+      padding: 10px;
+      font-size: 20px;
+      height: 90vh;
+    }
+  }
